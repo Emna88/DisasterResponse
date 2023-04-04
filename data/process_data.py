@@ -54,7 +54,7 @@ def clean_data(df):
 
 
 def save_data(df, database_filename):
-     """
+    """
     Funtion to save df into sqlite3
     INPUT
     df - Pandas Dataframe
