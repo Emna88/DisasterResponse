@@ -63,6 +63,19 @@ def index():
                     'title': "Genre"
                 }
             }
+        },
+        {
+            'data': [
+                Bar(
+                    x=list(category_counts.index),
+                    y=category_counts
+                )
+            ],
+            'layout': {
+                'title': 'Distribution of Categories',
+                'yaxis': { 'title': 'Count' },
+                'xaxis': { 'title': 'Category '}
+            }
         }
     ]
     
